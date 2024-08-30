@@ -6,6 +6,10 @@
     "module": "ESNext",
     "skipLibCheck": true,
 
+    /* Types */
+    "typeRoots": ["node_modules/@types", "src/types"],
+    "types": ["vite/client"],
+
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
@@ -21,4 +25,5 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": ["src"]
+  // "exclude": ["src/**/*.spec.ts"]
 }
